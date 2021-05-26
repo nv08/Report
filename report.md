@@ -5,21 +5,20 @@ It is also termed as pattern for building Software Systems based on **loosely co
 
 ![SOA](soa.jpg)
 
-> 1. **Consumers** - It can be end user or any other service that make the request to access a particular service.
+ 1. **Consumers** - It can be end user or any other service that make the request to access a particular service.
+ 2. **API Gateway Layer** - It can be used for multiple purposes depending upon the need of the project. Some of them are as follows.
+  - Performing Validations
+  - Performing Security/Authentication operations
+  - Route User's request to appropriate service
 
-> 2. **API Gateway Layer** - It can be used for multiple purposes depending upon the need of the project. Some of them are as follows.
->  - Performing Validations
->  - Performing Security/Authentication operations
->  - Route User's request to appropriate service
+ 3. **ESB** - It stands for Enterprise Service Bus, reffered to as *Backbone* of the System. Some responsibilities of ESB are mentioned below 
+ - Providing Connectivity
+ - Data Transformation (*mandatory*)
+ - Routing (*mandatory*)
+ - Service Management
+ - Monitoring
 
-> 3. **ESB** - It stands for Enterprise Service Bus, reffered to as *Backbone* of the System. Some responsibilities of ESB are mentioned below 
-> - Providing Connectivity
-> - Data Transformation (*mandatory*)
-> - Routing (*mandatory*)
-> - Service Management
-> - Monitoring
-
-> 4. **Services** - A service is a self-contained unit of software that performs a specific task.
+ 4. **Services** - A service is a self-contained unit of software that performs a specific task.
 
 ---
 
@@ -50,17 +49,17 @@ There are 3 Major areas where *SOA* systems are widely used.
 ---
 
 ### Advantages
-> - Reusability
-> - Maintainability
-> - Scalability
-> - Platform Independence
+ - Reusability
+ - Maintainability
+ - Scalability
+ - Platform Independence
 
 ---
 
 ### Limitations
-> - Hard to manage Complex Service Management
-> - Increased Overhead
-> - Upfront Investment
+ - Hard to manage Complex Service Management
+ - Increased Overhead
+ - Upfront Investment
 
 ---
 
