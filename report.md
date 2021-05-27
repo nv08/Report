@@ -1,4 +1,4 @@
-#Service Oriented Architechture(SOA)
+# Service Oriented Architechture(SOA)
 ---
 The term **SOA** is an architectural pattern in computer software design in which application components provide services to other components via a communication protocol, typically over a network.
 It is also termed as pattern for building Software Systems based on **loosely coupled Service Components**.
